@@ -114,7 +114,7 @@ class MaterialsTestingHub:
         
         with st.expander("Insulation"):
             if st.checkbox("Thermal Insulation (Resistance)"):
-                st.markdown("**Metric**: Thermal resistance RCF, a quantity specific to textile materials or composites, determines the dry heat flux across a given area in response to a steady applied temperature gradient.")
+                st.markdown("**Metric**: Thermal resistance RCF (K.$m^2$/W), a quantity specific to textile materials or composites, determines the dry heat flux across a given area in response to a steady applied temperature gradient.")
                 st.markdown("**Relevant Standard**: Sweating Guarded Hot Plate - **ASTM** **F1868 - Part A**")
                 st.markdown("**Sample Size**: 30cm X 30cm")
                 st.markdown("**Recommended Number of Specimens**: 3")
@@ -144,7 +144,7 @@ class MaterialsTestingHub:
                    
         with st.expander("Breathability"):
             if st.checkbox("Evaporative Resistance"):
-                st.markdown("**Metric**: Evaporative resistance REF,  a quantity specific to textile materials or composites, determines the latent evaporative heat flux across a given area in response to a steady applied water-vapour pressure gradient.")
+                st.markdown("**Metric**: Evaporative resistance REF (Pa.$m^2$/W),  a quantity specific to textile materials or composites, determines the latent evaporative heat flux across a given area in response to a steady applied water-vapour pressure gradient.")
                 st.markdown("**Relevant Standard**: Sweating Guarded Hot Plate - **ASTM** **F1868 - Part B**")
                 st.markdown("**Sample Size**: 30cm X 30cm")
                 st.markdown("**Recommended Number of Specimens**: 3")
@@ -208,7 +208,7 @@ class MaterialsTestingHub:
         
         with st.expander("Thermal Hand"):
             if st.checkbox("Thermal Effusivity"):
-                st.markdown("**Metric**: Absolute Absorption per unit area (g.$m^-2$) which indicates how much water can a fabric absorb per unit area in a certain time when merged in water.")
+                st.markdown("**Metric**: Thermal effusivity (W.$s^{0.5}$/$m^2$/K) measures a material's ability to exchange thermal energy with its surroundings, affecting the perception of warmth or coolness.")
                 st.markdown("**Relevant Standard**: Standard Test Method for Measurement of Thermal Effusivity of Fabrics - **ASTM** **D7984**")
                 st.markdown("**Sample Size**: Five Specimens of Fabrics with Flexible Size")
                 st.markdown("**Recommended Number of Specimens**: 5")
